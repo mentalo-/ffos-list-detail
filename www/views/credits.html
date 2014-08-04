@@ -1,0 +1,13 @@
+<section role="region">
+    <!-- Header building block http://buildingfirefoxos.com/building-blocks/headers.html -->
+    <header>
+        <!-- here we handle the back click and we do a popdown animation -->
+        <a ng-tap="go('/', 'popdown')"><span class="icon icon-back">back</span></a>
+        <h1>Credits</h1>
+    </header>
+</section>
+<!-- The content of the view should have a 'view' class, and add the name of
+         the view to easily style the view later -->
+<section class="view credits">
+    This application is made by {{ name }}. <!-- AngularJS does data binding for us -->
+</section>
