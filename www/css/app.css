@@ -28,6 +28,10 @@ div[data-ng-view] {
 .view.list {
   overflow-y: scroll;
 }
+.view.credits {
+  padding: 1.5rem;
+  font-size: 2rem;
+}
 
 /**
  Animations
